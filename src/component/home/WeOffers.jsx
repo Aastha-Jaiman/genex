@@ -9,14 +9,16 @@ const WeOfferSection = () => {
       description: 'Dealing in world\'s top 10 AC brands.',
       image: '/Sales.jpg',
       buttonText: 'Explore Products',
-      alt: 'Salesperson showing AC units in showroom'
+      alt: 'Salesperson showing AC units in showroom',
+      url: '/products'
     },
     {
       title: 'Service',
       description: 'We Support you end-to-end from consultation on Sales to Installation and maintenance.',
       image: '/Services.jpg',
       buttonText: 'Learn More',
-      alt: 'Technicians installing air conditioning units'
+      alt: 'Technicians installing air conditioning units',
+      url: '/services'
     }
   ];
 
@@ -53,7 +55,7 @@ const WeOfferSection = () => {
                 </p>
                 <div className="mt-auto">
                   <a 
-                    href="#" 
+                    href={item.url} 
                     className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded transition-colors duration-200"
                   >
                     {item.buttonText}

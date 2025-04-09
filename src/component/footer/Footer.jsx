@@ -33,10 +33,10 @@ const Footer = () => {
             <div>
               <h3 className="text-blue-600 font-semibold mb-3 text-lg">Links</h3>
               <ul className="space-y-2 text-sm">
+              <li><Link href="/" className="text-gray-600 hover:text-blue-600">Home</Link></li>
                 <li><Link href="/contact" className="text-gray-600 hover:text-blue-600">Contact Us</Link></li>
-                <li><Link href="/careers" className="text-gray-600 hover:text-blue-600">Careers</Link></li>
-                <li><Link href="/terms" className="text-gray-600 hover:text-blue-600">Terms</Link></li>
-                <li><Link href="/privacy" className="text-gray-600 hover:text-blue-600">Privacy</Link></li>
+                <li><Link href="/services" className="text-gray-600 hover:text-blue-600">Services</Link></li>
+                <li><Link href="/products" className="text-gray-600 hover:text-blue-600">Products</Link></li>
               </ul>
             </div>
 
@@ -44,11 +44,11 @@ const Footer = () => {
             <div>
               <h3 className="text-blue-600 font-semibold mb-3 text-lg">Products</h3>
               <ul className="space-y-2 text-sm">
-                <li><Link href="/vrf-vrv" className="text-gray-600 hover:text-blue-600">VRF-VRV</Link></li>
-                <li><Link href="/enterprise" className="text-gray-600 hover:text-blue-600">Enterprise</Link></li>
-                <li><Link href="/foldawater" className="text-gray-600 hover:text-blue-600">Foldawater</Link></li>
-                <li><Link href="/main-features" className="text-gray-600 hover:text-blue-600">Main Features</Link></li>
-                <li><Link href="/mobile-app" className="text-gray-600 hover:text-blue-600">Mobile App</Link></li>
+                <li><Link href="/products" className="text-gray-600 hover:text-blue-600">VRF-VRV</Link></li>
+                <li><Link href="/products" className="text-gray-600 hover:text-blue-600">Enterprise</Link></li>
+                <li><Link href="/products" className="text-gray-600 hover:text-blue-600">Foldawater</Link></li>
+                <li><Link href="/products" className="text-gray-600 hover:text-blue-600">Main Features</Link></li>
+                <li><Link href="/products" className="text-gray-600 hover:text-blue-600">Mobile App</Link></li>
               </ul>
             </div>
 

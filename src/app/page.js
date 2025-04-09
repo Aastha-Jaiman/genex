@@ -1,6 +1,6 @@
 import About from '@/component/about/About'
 import Footer from '@/component/footer/Footer'
-import HomePage from '@/component/hero/HeroSection'
+import HeroSection from '@/component/hero/HeroSection'
 import HVACSection from '@/component/home/About'
 import AwardsSection from '@/component/home/Achievements'
 import PartnerBrandsSection from '@/component/home/Brands'
@@ -14,7 +14,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <HomePage />
+      <HeroSection />
       {/* <Home /> */}
       <HVACSection />
       <TrustedBy />

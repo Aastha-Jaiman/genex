@@ -15,17 +15,17 @@ const HeroSection = () => {
         }}
       >
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-blue-900/60"></div>
+        <div className="absolute inset-0 bg-gray-900/30"></div>
         
         {/* Content */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
           <div className="text-white">
-            <p className="text-base sm:text-lg md:text-xl font-light tracking-wider mb-2 text-blue-400">WELCOME TO GENEX</p>
+            <p className="text-base sm:text-lg md:text-xl font-bold tracking-wider mb-2 text-blue-400">WELCOME TO GENEX</p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium mb-2 sm:mb-4">Leading HVAC Partner</h1>
-            <p className="text-base sm:text-lg md:text-xl font-light mb-6 sm:mb-8 text-blue-200">Experts in customised Air Conditioning</p>
+            <p className="text-base sm:text-lg md:text-xl font-normal mb-6 sm:mb-8 text-blue-200">Experts in customised Air Conditioning</p>
             
-            <Link href="/quote">
-              <button className="bg-blue-200 hover:bg-blue-600 text-blue-500 font-semibold py-2 px-4 sm:px-6 rounded-md transition duration-300 text-sm sm:text-base">
+            <Link href="#Contact">
+              <button className="bg-blue-200 hover:bg-blue-300 cursor-pointer text-blue-500 font-semibold py-2 px-4 sm:px-6 rounded-md transition duration-300 text-sm sm:text-base">
                 Get Quote
               </button>
             </Link>

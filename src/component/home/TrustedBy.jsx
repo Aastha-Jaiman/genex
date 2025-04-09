@@ -4,10 +4,10 @@ import Image from 'next/image';
 import React from 'react';
 
 const clients = [
-  { name: 'Bharat Forge', logo: '/kalyani.jpeg' },
-  { name: 'BlackBerry', logo: '/blackberry.jpeg' },
+  { name: 'Bharat Forge', logo: '/kalyani.png' },
+  { name: 'BlackBerry', logo: '/blackberry.png' },
   { name: 'Sahyadri Hospitals', logo: '/sahyadri.png' },
-  { name: 'Just In Time', logo: '/justInImage.jpeg' },
+  { name: 'Just In Time', logo: '/justInImage.png' },
   { name: 'Fabindia', logo: '/fabindia.png' },
   { name: 'B.U. Bhandari', logo: '/bandhari.png' },
   { name: 'SBI', logo: '/SBI.png' },
