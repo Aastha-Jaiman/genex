@@ -41,20 +41,20 @@ export default function HVACForm() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-white p-6 md:p-20" id='Contact'>
+    <div className="min-h-screen max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center bg-white p-6 md:p-20" id='Contact'>
       {/* Left Text Section */}
       <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-10">
-        <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold text-blue-800 mb-4">
           Custom HVAC Projects, Professional Results
         </h2>
-        <p className="text-gray-700 text-base md:text-lg">
+        <p className="text-gray-700 text-base md:text-3xl">
           Ready to transform your space with cutting-edge HVAC systems? Fill out the form to get a free consultation or a personalized quote. Our experts are here to ensure comfort, efficiency, and reliability for your home, office, or business.
         </p>
       </div>
 
       {/* Right Form Section */}
-      <div className="w-full md:w-1/2 bg-gray-100 rounded-xl shadow-md p-6 md:p-10">
-        <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
+      <div className="w-full md:w-1/2 rounded-xl shadow-2xl shadow-gray-800/40 bg-gray-100 p-6 md:p-10">
+        <form className="flex flex-col space-y-6" onSubmit={handleSubmit}>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
             <input
@@ -63,7 +63,6 @@ export default function HVACForm() {
               value={formData.name}
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-300 rounded"
-              placeholder="Enter your full name"
               required
             />
           </div>
@@ -77,7 +76,6 @@ export default function HVACForm() {
                 value={formData.company}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border border-gray-300 rounded"
-                placeholder="Company name"
               />
             </div>
             <div className="flex-1 mt-4 md:mt-0">
@@ -88,7 +86,6 @@ export default function HVACForm() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border border-gray-300 rounded"
-                placeholder="Phone number"
               />
             </div>
           </div>
@@ -101,7 +98,6 @@ export default function HVACForm() {
               value={formData.email}
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-300 rounded"
-              placeholder="Email address"
               required
             />
           </div>
@@ -114,7 +110,6 @@ export default function HVACForm() {
               value={formData.message}
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-300 rounded"
-              placeholder="Type your message here..."
               required
             ></textarea>
           </div>

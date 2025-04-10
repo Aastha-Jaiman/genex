@@ -27,17 +27,17 @@ const AwardsSection = () => {
   return (
 
     <>
-      <section className="bg-[#16132B] py-12 px-4">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center gap-8">
+      <section className="bg-[#16132B] py-24 px-4">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center gap-24">
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="border border-blue-400 rounded-2xl px-10 py-8 text-center w-full md:w-auto"
+              className="border border-blue-400 rounded-2xl py-16 text-center w-full md:w-[200px]"
             >
-              <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-2">
+              <div className="text-3xl md:text-5xl font-medium text-blue-400 mb-2">
                 {stat.value}
               </div>
-              <div className="text-white text-lg font-medium tracking-wide">
+              <div className="text-white text-3xl font-medium tracking-wide">
                 {stat.label}
               </div>
             </div>
@@ -45,7 +45,7 @@ const AwardsSection = () => {
         </div>
       </section>
       <section className="py-12 px-4 md:px-8 bg-white">
-      <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-700 mb-10">
+      <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-700 mb-10">
         Achievement
       </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 max-w-4xl mx-auto mb-8">

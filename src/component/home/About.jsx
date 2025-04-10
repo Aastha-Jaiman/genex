@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function HVACSection() {
   return (
-    <section className="w-full bg-gradient-to-b from-white to-gray-100 py-10 px-4 md:px-16">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <section className="w-full py-10 px-4 md:px-16">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Text Content */}
         <div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-800 leading-tight">
@@ -12,7 +12,7 @@ export default function HVACSection() {
             and Innovation
           </h2>
           <hr className="w-12 border-b-2 border-blue-800 my-4" />
-          <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+          <p className="text-gray-900 text-4xl sm:text-lg font-medium leading-relaxed">
             Expertise-driven HVAC solutions designed for industrial and commercial spaces. With
             over 18 years of experience, Genex delivers seamless installation, trusted brands,
             and reliable maintenance support.

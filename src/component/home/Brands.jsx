@@ -19,7 +19,7 @@ const brands = [
 const PartnerBrandsSection = () => {
   return (
     <section className="bg-[#16132B] py-12 px-4">
-      <h2 className="text-center text-white text-2xl font-semibold mb-10">
+      <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-100 mb-20">
         Top Partner Brands
       </h2>
 
@@ -27,7 +27,7 @@ const PartnerBrandsSection = () => {
         {brands.slice(0,8).map((brand, index) => (
           <div
             key={index}
-            className="bg-white p-4 rounded-2xl flex items-center justify-center h-24 shadow-md"
+            className="bg-white p-4 rounded-2xl flex items-center justify-center h-44 shadow-md"
           >
             <Image
               src={brand.logo}
@@ -42,25 +42,25 @@ const PartnerBrandsSection = () => {
 
       <div className='flex gap-6 justify-center mt-6'>
           <div
-            className="bg-white p-4 rounded-2xl flex items-center justify-center h-24 shadow-md"
+            className="bg-white p-4 rounded-2xl flex items-center justify-center h-44 shadow-md"
           >
             <Image
               src={brands[8].logo}
               alt={brands[8].name}
               width={100}
               height={50}
-              className="object-contain h-full w-full"
+              className="object-contain h-full w-44"
             />
           </div>
           <div
-            className="bg-white p-4 rounded-2xl flex items-center justify-center h-24 shadow-md"
+            className="bg-white p-4 rounded-2xl flex items-center justify-center h-44 shadow-md"
           >
             <Image
               src={brands[9].logo}
               alt={brands[9].name}
               width={100}
               height={50}
-              className="object-contain h-full w-full"
+              className="object-contain h-full w-44"
             />
           </div>
       </div>

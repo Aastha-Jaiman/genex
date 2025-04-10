@@ -24,12 +24,12 @@ const WeOfferSection = () => {
 
   return (
     <section className="py-12 px-4 md:px-8 bg-white">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-700 mb-10">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-700 mb-10">
           We Offer
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
           {offerItems.map((item, index) => (
             <div 
               key={index} 
