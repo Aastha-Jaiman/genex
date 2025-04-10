@@ -63,7 +63,7 @@ export default function ProductTypes() {
             >
               {/* Text Section - Always on left for desktop */}
               <div className="order-2 md:order-1 pr-0 md:pr-6">
-                <h2 className="text-2xl font-bold text-blue-700 mb-4">
+                <h2 className="text-2xl font-bold text-blue-800 mb-4">
                   {product.title}
                 </h2>
                 <p className="text-gray-700 leading-relaxed">

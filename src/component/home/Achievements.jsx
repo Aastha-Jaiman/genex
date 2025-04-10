@@ -45,7 +45,7 @@ const AwardsSection = () => {
         </div>
       </section>
       <section className="py-12 px-4 md:px-8 bg-white">
-      <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-700 mb-10">
+      <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-10">
         Achievement
       </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 max-w-4xl mx-auto mb-8">

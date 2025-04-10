@@ -25,7 +25,7 @@ const WeOfferSection = () => {
   return (
     <section className="py-12 px-4 md:px-8 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-700 mb-10">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-10">
           We Offer
         </h2>
         

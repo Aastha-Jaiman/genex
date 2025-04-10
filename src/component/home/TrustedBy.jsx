@@ -17,7 +17,7 @@ const clients = [
 const TrustedBy = () => {
   return (
     <section className="py-12 px-4 md:px-8 bg-white">
-      <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-700 mb-10">
+      <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-10">
         Trusted By
       </h2>
 
@@ -30,7 +30,7 @@ const TrustedBy = () => {
             <Image
               src={client.logo}
               alt={client.name}
-              width={150}
+              width={300}
               height={100}
               className="object-contain h-20"
             />

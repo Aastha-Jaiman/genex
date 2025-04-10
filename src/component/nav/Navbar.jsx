@@ -66,7 +66,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`relative text-gray-600 hover:text-blue-600 font-semibold transition-colors duration-200 ${
+                  className={`relative text-gray-600 hover:text-blue-800 font-semibold transition-colors duration-200 ${
                     pathname === item.href ? 'text-[#01796F]' : ''
                   }`}
                 >
@@ -82,7 +82,7 @@ const Navbar = () => {
             <div className="md:hidden flex items-center">
               <button
                 type="button"
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-blue-600 focus:outline-none"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-blue-800 focus:outline-none"
                 aria-expanded={isMenuOpen}
                 onClick={toggleMenu}
               >
@@ -124,7 +124,7 @@ const Navbar = () => {
                   className={`block px-3 py-2 rounded-md text-base font-medium ${
                     pathname === item.href
                       ? 'text-[#01796F] bg-gray-100'
-                      : 'text-gray-600 hover:text-blue-600 hover:bg-gray-50'
+                      : 'text-gray-600 hover:text-blue-800 hover:bg-gray-50'
                   }`}
                 >
                   {item.name}
