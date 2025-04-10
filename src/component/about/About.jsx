@@ -15,25 +15,25 @@ const About = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                 {/* Left Column: Text Content */}
                 <div className="space-y-6">
-                  <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-6">Company Overview</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-6">Company Overview</h2>
                   
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-800 font-normal text-2xl">
                     For companies looking for the best comfort and efficiency in Pune, India, Genex Cooling Systems has been a reliable partner since 2007.
                   </p>
                   
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-800 font-normal text-2xl">
                     Designing, implementing, and maintaining high-performance HVAC systems especially made for the commercial and industrial sectors is our area of expertise
                   </p>
                   
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-800 font-normal text-2xl">
                     We understand the particular difficulties faced by every sector. Regardless matter whether you oversee a corporate office, healthcare facility, educational institution, or manufacturing plant, our team of professional
                   </p>
                   
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-800 font-normal text-2xl">
                     In addition to air conditioning systems, Genex offers solutions that improve efficiency, save energy, and guarantee long-term dependability. By collaborating with trusted brands like LG, Daikin, Mitsubishi, and Carrier, we deliver advanced HVAC technology built to meet the demands of your business.
                   </p>
                   
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-800 font-normal text-2xl">
                     Engineering mastery, energy efficiency, and a steadfast dedication to client delight are the building blocks of our HVAC industry reputation,
                   </p>
                 </div>

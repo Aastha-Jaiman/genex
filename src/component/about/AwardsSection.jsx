@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function AwardsSection() {
   return (
-    <section className="py-12 px-4 md:px-10 bg-white">
-      <h2 className="text-2xl md:text-3xl font-semibold text-center text-blue-800 mb-10">
+    <section className="py-16 px-4 md:px-10 bg-white">
+      <h2 className="text-2xl md:text-5xl font-bold text-center text-blue-800 mb-10">
         Awards and Recognition
       </h2>
 
@@ -26,10 +26,11 @@ export default function AwardsSection() {
         <div className="w-full">
           <Image src="/awards/award6.png" alt="Award 6" width={500} height={500} className="shadow-md" />
         </div>
-        <div className="w-full">
-          <Image src="/awards/award7.png" alt="Award 7" width={500} height={500} className="shadow-md" />
-        </div>
+
       </div>
+        <div className="max-w-7xl flex justify-center mt-6">
+          <Image src="/awards/award7.png" alt="Award 7" width={405} height={405} className="shadow-md" />
+        </div>
     </section>
   );
 }

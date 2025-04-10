@@ -37,10 +37,10 @@ export default function OurOfferings() {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-blue-700 mb-4">Our Offerings</h2>
+        <h2 className="text-5xl font-bold text-blue-800 mb-4">Our Offerings</h2>
         
-        <div className="mb-10">
-          <p className="text-gray-700 mb-6">
+        <div className="mb-10 ">
+          <p className="text-gray-800 font-semibold text-xl mb-6">
             Genex Cooling Systems is a trusted HVAC dealer specializing in delivering innovative and efficient 
             climate control solutions. As top-brand partners for LG, Mitsubishi, and over 30 world-class 
             manufacturers, we bring you the highest quality HVAC products currently available in the 
@@ -71,8 +71,8 @@ export default function OurOfferings() {
               
               {/* Text Section */}
               <div className={`w-full lg:w-1/2 ${offering.reverse ? 'lg:order-1' : 'lg:order-2'}`}>
-                <h3 className="text-xl font-bold text-blue-700 mb-4">{offering.title}</h3>
-                <p className="text-gray-700">{offering.description}</p>
+                <h3 className="text-2xl font-bold text-blue-800 mb-4">{offering.title}</h3>
+                <p className="text-gray-700 font-semibold">{offering.description}</p>
               </div>
             </div>
           ))}

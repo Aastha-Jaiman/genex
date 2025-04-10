@@ -19,7 +19,7 @@ const HeroSection2 = ({ pageName, bgImage }) => {
 
       {/* Content Container */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full ">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white text-center mb-6 py-2 bg-black/50 w-full ">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium text-white text-center mb-6 py-2 bg-black/50 w-full ">
           {pageName}
         </h1>
       </div>

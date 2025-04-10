@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div>
       <Navbar />  
-      <HeroSection2 pageName="About" bgImage="/aboutbg.jpg"/>
+      <HeroSection2 pageName="About Us" bgImage="/aboutbg.jpg"/>
       <About />
       <PartnerBrandsSection />
       <HVACForm />

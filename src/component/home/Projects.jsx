@@ -26,8 +26,8 @@ const ProjectSection = () => {
   return (
 
     <>
-      <section className="py-12 px-4 md:px-8 bg-white">
-      <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-700 mb-10">
+      <section className="py-12 px-4 md:px-8 bg-gray-50 ">
+      <h2 className="text-2xl md:text-5xl font-bold text-center text-blue-800 mb-10">
         Projects
       </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 max-w-4xl mx-auto mb-8">
