@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const clients = [
-  { name: 'Bharat Forge', logo: '/Genex/27 12/49.png' },
+  { name: 'Bharat Forge', logo: '/Genex/27 12/48.png' },
   { name: 'BlackBerry', logo: '/Genex/27 12/25.png' },
   { name: 'Sahyadri Hospitals', logo: '/Genex/27 12/50.png' },
   { name: 'Just In Time', logo: '/Genex/27 12/34.png' },
