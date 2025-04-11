@@ -5,49 +5,55 @@ const productData = [
     title: "VRF Air Conditioning System",
     description:
       "Efficient and scalable, the VRF system offers advanced climate control for large spaces, combining cutting-edge technology with sleek, quiet operation for unmatched comfort.",
-    image: "/VRFAir.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/VRF LG.avif", // Replace with your actual image path
   },
   {
     title: "Multi i HVAC System",
     description:
       "Multi-zone cooling solution with a modern aesthetic, ensuring energy-efficient, quiet operation and precise temperature control for diverse commercial applications.",
-    image: "/Multi-I-Cooling.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/LG multi i.avif", // Replace with your actual image path
   },
   {
     title: "Ductable Air Conditioner",
     description:
       "Compact and versatile ductable AC delivers consistent airflow, offering an ideal cooling solution for large industrial and commercial spaces with easy installation.",
-    image: "/Ductable.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Ductable ac.jpg", // Replace with your actual image path
   },
   {
     title: "One-Way Cassette AC",
     description:
       "Sleek one-way cassette AC ensures directional airflow with space-saving installation, combining modern design and efficient performance for any environment.",
-    image: "/Ac.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/One way cassette.avif", // Replace with your actual image path
   },
   {
     title: "Four-Way Cassette AC",
     description:
       "Advanced four-way cassette AC offers 360-degree airflow, energy efficiency, and an elegant design, making it ideal for modern commercial and residential spaces.",
-    image: "/4Ac.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Four way cassette ac.avif", // Replace with your actual image path
   },
   {
     title: "Round Cassette AC",
     description:
       "Stylish round cassette AC combines a unique circular design with optimized airflow, providing high-end cooling solutions for premium spaces with quiet operation.",
-    image: "/RoundAc.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Round Cassette ac.webp", // Replace with your actual image path
   },
   {
     title: "Low Static Ductable AC",
     description:
       "Low static ductable AC is a compact, energy-efficient solution for consistent, quiet cooling tailored for small to mid-sized areas with versatile installation options.",
-    image: "/LowAc.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Ductable ac.jpg", // Replace with your actual image path
   },
   {
     title: "Tower Air Conditioner",
     description:
       "Modern tower AC unit blends vertical design and high-capacity cooling, offering powerful performance and an elegant appearance for versatile applications.",
-    image: "/TowerAc.png", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Tower AC.jpg", // Replace with your actual image path
+  },
+  {
+    title: "Split Air Conditioner",
+    description:
+      "Sophisticated split AC features a sleek wall-mounted unit and durable outdoor compressor, ensuring reliable cooling, quiet operation, and energy-efficient performance.",
+    image: "/Genex/WEBSITE AC PHOTOS/spilt ac.jpg", // Replace with your actual image path
   },
 ];
 
@@ -79,7 +85,7 @@ export default function ProductTypes() {
                     alt={product.title}
                     width={300}
                     height={300}
-                    style={{ objectFit: "contain", width: "100%", height: "auto" }}
+                    style={{ objectFit: "contain", width: "100%", height: "300px" }}
                   />
                 </div>
               </div>

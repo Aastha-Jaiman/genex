@@ -4,16 +4,16 @@ import Image from 'next/image';
 import React from 'react';
 
 const brands = [
-  { name: 'LG', logo: '/brands/brand1.png' },
-  { name: 'Mitsubishi', logo: '/brands/brand2.png' },
-  { name: 'Daikin', logo: '/brands/brand3.png' },
-  { name: 'Blue Star', logo: '/brands/brand4.png' },
-  { name: 'Lloyd', logo: '/brands/brand5.png' },
-  { name: 'Voltas', logo: '/brands/brand6.png' },
-  { name: 'Panasonic', logo: '/brands/brand7.png' },
-  { name: 'Samsung', logo: '/brands/brand8.png' },
-  { name: 'Hitachi', logo: '/brands/brand9.png' },
-  { name: 'Carrier', logo: '/brands/brand10.png' },
+  { name: 'LG', logo: '/Genex/27 12/1.png' },
+  { name: 'Mitsubishi', logo: '/Genex/27 12/3.png' },
+  { name: 'Daikin', logo: '/Genex/27 12/5.png' },
+  { name: 'Blue Star', logo: '/Genex/27 12/7.png' },
+  { name: 'Lloyd', logo: '/Genex/27 12/9.png' },
+  { name: 'Voltas', logo: '/Genex/27 12/11.png' },
+  { name: 'Panasonic', logo: '/Genex/27 12/13.png' },
+  { name: 'Samsung', logo: '/Genex/27 12/15.png' },
+  { name: 'Hitachi', logo: '/Genex/27 12/17.png' },
+  { name: 'Carrier', logo: '/Genex/27 12/19.png' },
 ];
 
 const PartnerBrandsSection = () => {

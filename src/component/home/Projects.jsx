@@ -5,19 +5,19 @@ import React from 'react';
 
 const awards = [
   {
-    image: '/OfficeImage.jpg',
+    image: '/Genex/4.jpeg',
   },
   {
-    image: '/OfficeImage.jpg',
+    image: '/Genex/2.jpeg',
   },
   {
-    image: '/OfficeImage.jpg',
+    image: '/Genex/1.jpeg',
   },
   {
-    image: '/OfficeImage.jpg',
+    image: '/Genex/3.jpeg',
   },
   {
-    image: '/OfficeImage.jpg',
+    image: '/Genex/Site photos/2.jpeg',
   },
 ];
 
@@ -30,15 +30,15 @@ const ProjectSection = () => {
       <h2 className="text-2xl md:text-5xl font-bold text-center text-blue-800 mb-10">
         Projects
       </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 max-w-4xl mx-auto mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-4xl mx-auto mb-8">
           {awards.slice(0, 4).map((award, index) => (
-            <div key={index} className="flex flex-col items-center overflow-hidden">
+            <div key={index} className="flex flex-col h-[300px] items-center overflow-hidden">
               <Image
                 src={award.image}
                 alt={award.title}
                 width={400}
                 height={250}
-                className="object-cover w-full h-auto"
+                className="object-cover"
               />
             </div>
           ))}

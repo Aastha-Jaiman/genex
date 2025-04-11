@@ -4,14 +4,14 @@ import Image from 'next/image';
 import React from 'react';
 
 const clients = [
-  { name: 'Bharat Forge', logo: '/kalyani.png' },
-  { name: 'BlackBerry', logo: '/blackberry.png' },
-  { name: 'Sahyadri Hospitals', logo: '/sahyadri.png' },
-  { name: 'Just In Time', logo: '/justInImage.png' },
-  { name: 'Fabindia', logo: '/fabindia.png' },
-  { name: 'B.U. Bhandari', logo: '/bandhari.png' },
-  { name: 'SBI', logo: '/SBI.png' },
-  { name: 'Legacy Lifespaces', logo: '/Legacy.png' },
+  { name: 'Bharat Forge', logo: '/Genex/27 12/49.png' },
+  { name: 'BlackBerry', logo: '/Genex/27 12/25.png' },
+  { name: 'Sahyadri Hospitals', logo: '/Genex/27 12/50.png' },
+  { name: 'Just In Time', logo: '/Genex/27 12/34.png' },
+  { name: 'Fabindia', logo: '/Genex/27 12/26.png' },
+  { name: 'B.U. Bhandari', logo: '/Genex/27 12/32.png' },
+  { name: 'SBI', logo: '/Genex/27 12/54.png' },
+  { name: 'Legacy Lifespaces', logo: '/Genex/27 12/44.png' },
 ];
 
 const TrustedBy = () => {
@@ -21,18 +21,24 @@ const TrustedBy = () => {
         Trusted By
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-[68rem] mx-auto">
         {clients.map((client, index) => (
           <div
             key={index}
-            className="flex justify-center items-center bg-white shadow-md rounded-lg p-4 hover:scale-105 transition-transform"
+            className="flex justify-center items-center bg-white transition-transform hover:scale-105 w-full h-28 sm:h-32 md:h-32"
+            style={{
+              boxShadow: `
+                -0px -0px 2px rgba(0, 0, 0, 0.01),
+                 4px 4px 10px rgba(0, 0, 0, 0.2)  
+              `,
+            }}
           >
             <Image
               src={client.logo}
               alt={client.name}
-              width={300}
-              height={100}
-              className="object-contain h-20"
+              width={200}
+              height={80}
+              className="object-contain w-full h-full"
             />
           </div>
         ))}

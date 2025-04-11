@@ -43,7 +43,7 @@ const About = () => {
                   <div className="absolute inset-0 bg-gray-900 "></div>
                   <div className="h-full w-full relative left-10 bottom-10">
                     <Image 
-                      src="/aboutimg.png" 
+                      src="/Genex/12.jpeg" 
                       alt="Luxury HVAC showcase room" 
                       layout="fill"
                       objectFit="cover"
