@@ -27,7 +27,7 @@ export default function AwardsSection() {
         ))}
       </div>
 
-      <div className="w-full overflow-hidden flex justify-center mt-10 aspect-[4/3] relative ">
+      <div className="w-full overflow-hidden flex justify-center mt-10 relative">
         <img
           src="/Genex/Award photos/1.jpeg"
           alt="Award 7"
