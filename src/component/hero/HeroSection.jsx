@@ -48,7 +48,7 @@ const HeroSection = () => {
             {/* Sales */}
             <div className="p-2 sm:p-3 md:p-4 flex flex-col items-center">
               <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-16 md:h-14 mb-1 sm:mb-2 md:mb-3">
-                <img src="/ac.png" alt="" />
+                <img src="/ac.png" alt="ac" />
               </div>
               <h3 className="text-sm sm:text-base md:text-lg">Sales</h3>
             </div>
