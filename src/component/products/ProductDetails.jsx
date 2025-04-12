@@ -53,7 +53,7 @@ const productData = [
     title: "Split Air Conditioner",
     description:
       "Sophisticated split AC features a sleek wall-mounted unit and durable outdoor compressor, ensuring reliable cooling, quiet operation, and energy-efficient performance.",
-    image: "/Genex/WEBSITE AC PHOTOS/spilt ac.jpg", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Spilt ac.jpg", // Replace with your actual image path
   },
 ];
 

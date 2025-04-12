@@ -1,9 +1,9 @@
-import { FaPhone, FaEnvelope, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa";
 
 export default function ContactInfo() {
   return (
     <section className="w-full px-4 py-12 sm:px-6 md:px-16 bg-white text-gray-800">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Left Section */}
         <div>
           <p className="uppercase text-sm font-semibold text-gray-500">Contact Information</p>
@@ -23,25 +23,25 @@ export default function ContactInfo() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-6">
             {/* Reach us via */}
             <div>
-              <h4 className="text-lg font-semibold text-blue-800 mb-2">Reach us via</h4>
+              <h4 className="text-lg font-semibold text-black mb-2">Reach us via</h4>
               <p className="flex items-center gap-2 text-gray-700">
-                <FaPhone /> +91 91454 94029
+               <span className="font-bold text-gray-500">Phone:</span>  <span className="text-blue-800">+91 91454 94029</span> 
               </p>
               <p className="flex items-center gap-2 text-gray-700 mt-1">
-                <FaEnvelope /> connect@genexgroup.in
+               <span className="font-bold text-gray-500">Gmail:</span>  <span className="text-blue-800">connect@genexgroup.in</span> 
               </p>
-              <div className="flex gap-3 mt-3 text-blue-800">
-                <FaLinkedin className="hover:text-blue-800 cursor-pointer" />
-                <FaFacebook className="hover:text-blue-800 cursor-pointer" />
+              <div className="flex text-2xl gap-3 mt-3 text-blue-800">
+                <FaYoutube className="hover:text-blue-800 cursor-pointer" />
                 <FaInstagram className="hover:text-blue-800 cursor-pointer" />
+                <FaLinkedin className="hover:text-blue-800 cursor-pointer" />
               </div>
             </div>
 
             {/* Business Info */}
             <div>
-              <h4 className="text-lg font-semibold text-blue-900 mb-2">Business info</h4>
+              <h4 className="text-lg font-semibold text-black mb-2">Business info</h4>
               <p className="text-gray-700">
-                Location: Shree Dwaraka Society, Om Dwaraka Building, Flat No 5, 3rd Floor, 
+                <span className="font-bold text-gray-500">Location: </span> Shree Dwaraka Society, Om Dwaraka Building, Flat No 5, 3rd Floor, 
                 University Rd, Shivajinagar, Pune - 411007
               </p>
             </div>

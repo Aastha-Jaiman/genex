@@ -34,7 +34,7 @@ const HeroSection = () => {
       </div>
       
       {/* Services Section */}
-      <div className="bg-indigo-950 py-3 sm:py-4 md:py-6 w-full md:w-11/12 lg:w-10/12 xl:w-3/4 mx-auto relative -mt-12 sm:-mt-16 md:-mt-20 shadow-lg">
+      <div className="bg-[#16132B] py-3 sm:py-4 md:py-6 w-full md:w-11/12 lg:w-10/12 xl:w-3/4 mx-auto relative -mt-12 sm:-mt-16 md:-mt-20 shadow-lg">
         <div className="w-full px-2 sm:px-4 md:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 md:gap-6 text-center text-white">
             {/* Consultation */}
