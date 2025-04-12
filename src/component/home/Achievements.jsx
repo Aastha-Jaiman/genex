@@ -6,15 +6,15 @@ import React from 'react';
 const awards = [
   {
     title: 'Business Transformation Award, Hong Kong 2023',
-    image: '/OfficeImage.jpg',
+    image: '/Genex/images/Award1.png',
   },
   {
     title: 'Success Story',
-    image: '/OfficeImage.jpg',
+    image: '/Genex/images/Award2.png',
   },
   {
     title: 'Business Transformation Award, Paris 2024',
-    image: '/OfficeImage.jpg',
+    image: '/Genex/images/Award3.png',
   },
 ];
 const stats = [
@@ -42,7 +42,7 @@ const AwardsSection = () => {
                 height={250}
                 className="object-cover w-full h-auto"
               />
-              <p className="text-center text-gray-700 font-bold p-2 mt-5">
+              <p className="text-center text-gray-700 font-medium p-2 mt-5">
                 {award.title}
               </p>
             </div>

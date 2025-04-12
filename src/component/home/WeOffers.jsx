@@ -7,7 +7,7 @@ const WeOfferSection = () => {
     {
       title: 'Sales',
       description: 'Dealing in world\'s top 10 AC brands.',
-      image: '/Sales.jpg',
+      image: '/Genex/images/Offer1.png',
       buttonText: 'Explore Products',
       alt: 'Salesperson showing AC units in showroom',
       url: '/products'
@@ -15,7 +15,7 @@ const WeOfferSection = () => {
     {
       title: 'Service',
       description: 'We Support you end-to-end from consultation on Sales to Installation and maintenance.',
-      image: '/Services.jpg',
+      image: '/Genex/images/Offer2.png',
       buttonText: 'Learn More',
       alt: 'Technicians installing air conditioning units',
       url: '/services'
@@ -36,7 +36,7 @@ const WeOfferSection = () => {
               className="bg-white rounded shadow-lg overflow-hidden flex flex-col"
               style={{ boxShadow: '0 6px 16px rgba(0, 0, 0, 0.1)' }}
             >
-              <div className="h-80 relative">
+              <div className="h-64 relative">
                 <Image
                   src={item.image}
                   alt={item.alt}
@@ -46,8 +46,9 @@ const WeOfferSection = () => {
                 />
               </div>
               
-              <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-semibold text-blue-700 mb-3">
+              
+              <div className="p-14 flex flex-col flex-grow">
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">
                   {item.title}
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -56,7 +57,7 @@ const WeOfferSection = () => {
                 <div className="mt-auto">
                   <a 
                     href={item.url} 
-                    className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded transition-colors duration-200"
+                    className="inline-block bg-blue-800 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded transition-colors duration-200"
                   >
                     {item.buttonText}
                   </a>

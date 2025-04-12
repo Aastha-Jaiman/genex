@@ -1,61 +1,69 @@
+
+'use client';
+
 import Image from 'next/image';
+import React from 'react';
 
-export default function ImagesSection() {
+const awards = [
+  {
+    title: 'Paris 2024, with Managing Director of MDLG Electronics',
+    image: '/Genex/images/Award3.png',
+  },
+  {
+    title: 'Success Story',
+    image: '/Genex/images/Award1.png',
+  },
+  {
+    title: ' Business Transformation Award, Hong Kong 2023, received by Managing Director of MDLG Electronics',
+    image: '/Genex/images/Award2.png',
+  },
+];
+
+const ImagesSection = () => {
   return (
-    <section className="py-10 px-4 md:px-10 lg:px-20 bg-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 gap-6">
-        {/* Top full-width image */}
-        <div className="w-full">
-          <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]">
+
+    <>
+
+      <section className="py-12 px-4 md:px-8 bg-white">
+        {/* <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-10">
+        Achievement
+      </h2> */}
+        {/* Second Row with 1 Centered Image */}
+        <div className="flex justify-center">
+          <div className="flex flex-col items-center w-[650px] overflow-hidden mb-8">
             <Image
-              src="/award1.png"
-              alt="Business Transformation Award"
-              layout="fill"
-              objectFit="cover"
-              className="shadow-lg"
+              src={awards[2].image}
+              alt={awards[2].title}
+              width={600}
+              height={250}
+              className="object-cover w-full h-auto shadow1"
             />
-          </div>
-          <p className="mt-2 text-center text-sm text-gray-700">
-            Business Transformation Award, Hong Kong 2023,<br />
-            received by Managing Director of MDLG Electronics
-          </p>
-        </div>
-
-        {/* Bottom row with two images side by side on larger screens */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Left image */}
-          <div>
-            <div className="relative w-full  h-[500px]">
-              <Image
-                src="/award2.png"
-                alt="Paris 2024"
-                layout="fill"
-                objectFit="cover"
-                className="shadow-lg"
-              />
-            </div>
-            <p className="mt-2 text-center text-sm text-gray-700">
-              Paris 2024, with Managing Director of MDLG Electronics
-            </p>
-          </div>
-
-          {/* Right image */}
-          <div>
-            <div className="relative w-full h-[500px]">
-              <Image
-                src="/award3.png"
-                alt="Success Story"
-                layout="fill"
-                objectFit="cover"
-                className="shadow-lg"
-              />
-            </div>
-            <p className="mt-2 text-center text-sm text-gray-700">
-              Success Story
+            <p className="text-center text-gray-700 font-medium p-2">
+              {awards[2].title}
             </p>
           </div>
         </div>
-      </div>
-    </section>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-4xl mx-auto ">
+          {awards.slice(0, 2).map((award, index) => (
+            <div key={index} className="flex flex-col items-center">
+              <Image
+                src={award.image}
+                alt={award.title}
+                width={700}
+                height={250}
+                className="object-cover w-full h-auto shadow1"
+              />
+              <p className=" text-gray-700 font-medium p-2">
+                {award.title}
+              </p>
+            </div>
+          ))}
+        </div>
+
+      </section>
+
+    </>
   );
-}
+};
+
+export default ImagesSection;

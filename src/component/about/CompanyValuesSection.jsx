@@ -1,7 +1,7 @@
 export default function CompanyValuesSection() {
     return (
       <section className="bg-[#1E1830] text-white py-36 px-4 md:px-10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
           
           {/* Our Promise */}
           <div>
@@ -16,7 +16,7 @@ export default function CompanyValuesSection() {
           <div>
             <h3 className="text-2xl font-semibold mb-2 text-left">Our Purpose</h3>
             <p className="text-md text-gray-300 text-left">
-              Our purpose is to set an inspiring example for HVAC dealers across India by fostering a 
+              Our purpose is to set an inspiring example for HVAC dealers across India by fostering a
               sense of respect, success and entrepreneurship. Along with this to create
             </p>
           </div>

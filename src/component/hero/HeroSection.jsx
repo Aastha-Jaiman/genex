@@ -8,9 +8,9 @@ const HeroSection = () => {
     <div className="relative w-full">
       {/* Background Image with Overlay */}
       <div 
-        className="w-full bg-center bg-cover h-[80vh] sm:h-[85vh] md:h-[80vh] lg:h-[90vh]"
+        className="w-full bg-center bg-cover h-[80vh] sm:h-[85vh] md:h-[80vh] lg:h-[100vh] object-cover"
         style={{
-          backgroundImage: "url('/OfficeImage.jpg')",
+          backgroundImage: "url('/Genex/images/Mask Group 1.png')",
           position: "relative"
         }}
       >

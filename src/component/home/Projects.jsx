@@ -38,7 +38,7 @@ const ProjectSection = () => {
                 alt={award.title}
                 width={400}
                 height={250}
-                className="object-cover"
+                className="object-cover shadow2"
               />
             </div>
           ))}
@@ -52,7 +52,7 @@ const ProjectSection = () => {
               alt={awards[2].title}
               width={400}
               height={250}
-              className="object-cover w-full h-auto"
+              className="object-cover w-full h-auto shadow2"
             />
             <p className="text-center text-gray-700 font-medium p-2 mt-5">
               {awards[2].title}

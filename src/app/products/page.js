@@ -11,7 +11,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection2 pageName="Products" bgImage="/aboutbg.jpg"/>
+      <HeroSection2 pageName="Products" bgImage="/Genex/images/ProductHero.png"/>
       <ProductsRange />
       <ProductTypes />
       <PartnerBrandsSection />

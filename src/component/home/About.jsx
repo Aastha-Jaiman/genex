@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HVACSection() {
   return (
-    <section className="w-full py-10 px-4 md:px-16">
+    <section className="w-full py-14 px-4 md:px-16">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Text Content */}
         <div>
@@ -37,7 +37,7 @@ export default function HVACSection() {
         <div className="relative w-full h-96 md:h-[500px]">
           <div className="absolute top-0 left-10 w-4/5 h-[220px] sm:h-[250px] md:h-[300px] shadow-xl rounded overflow-hidden">
             <Image
-              src="/Office2.jpg"
+              src="/Genex/images/About1.png"
               alt="Office 1"
               layout="fill"
               objectFit="cover"
@@ -45,7 +45,7 @@ export default function HVACSection() {
           </div>
           <div className="absolute bottom-0 right-0 w-4/5 h-[220px] sm:h-[250px] md:h-[300px] shadow-xl rounded overflow-hidden">
             <Image
-              src="/Office1.jpg"
+              src="/Genex/images/About2.png"
               alt="Office 2"
               layout="fill"
               objectFit="cover"

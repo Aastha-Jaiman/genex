@@ -62,7 +62,7 @@ export default function HVACForm() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded"
+              className="w-full px-4 py-2 border border-gray-500 rounded-2xl"
               required
             />
           </div>
@@ -75,7 +75,7 @@ export default function HVACForm() {
                 name="company"
                 value={formData.company}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded"
+                className="w-full px-4 py-2 border border-gray-500 rounded-2xl"
               />
             </div>
             <div className="flex-1 mt-4 md:mt-0">
@@ -85,7 +85,7 @@ export default function HVACForm() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded"
+                className="w-full px-4 py-2 border border-gray-500 rounded-2xl"
               />
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function HVACForm() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded"
+              className="w-full px-4 py-2 border border-gray-500 rounded-2xl"
               required
             />
           </div>
@@ -109,7 +109,7 @@ export default function HVACForm() {
               rows="4"
               value={formData.message}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded"
+              className="w-full px-4 py-2 border border-gray-500 rounded-2xl"
               required
             ></textarea>
           </div>
@@ -117,7 +117,7 @@ export default function HVACForm() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-2 bg-blue-700 hover:bg-blue-800 text-white font-semibold rounded"
+            className="w-full py-2 bg-blue-800 hover:bg-blue-800 text-white font-semibold rounded-2xl"
           >
             {loading ? "Sending..." : "Submit"}
           </button>

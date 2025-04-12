@@ -3,12 +3,11 @@ import React from 'react';
 
 const HeroSection2 = ({ pageName, bgImage }) => {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[120vh] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/aboutbg.jpg')",
-          // background:  `url(${bgImage})`,
+          background:  `url(${bgImage})`,
           filter: "brightness(0.8)"
         }}
       />
