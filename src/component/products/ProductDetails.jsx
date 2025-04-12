@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 const productData = [
   {
@@ -80,7 +80,7 @@ export default function ProductTypes() {
               {/* Image Section - Always on right for desktop */}
               <div className="order-1 md:order-2 flex justify-center md:justify-end">
                 <div className="relative w-full max-w-xs border border-gray-200 p-2 rounded">
-                  <Image
+                  <img
                     src={product.image}
                     alt={product.title}
                     width={300}

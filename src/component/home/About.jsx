@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function HVACSection() {
   return (
@@ -36,19 +36,22 @@ export default function HVACSection() {
         {/* Images */}
         <div className="relative w-full h-96 md:h-[500px]">
           <div className="absolute top-0 left-10 w-4/5 h-[220px] sm:h-[250px] md:h-[300px] shadow-xl rounded overflow-hidden">
-            <Image
+            <img
               src="/Genex/images/About1.png"
               alt="Office 1"
-              layout="fill"
+              // layout="fill"
               objectFit="cover"
+              className="h-full object-cover"
+
             />
           </div>
           <div className="absolute bottom-0 right-0 w-4/5 h-[220px] sm:h-[250px] md:h-[300px] shadow-xl rounded overflow-hidden">
-            <Image
+            <img
               src="/Genex/images/About2.png"
               alt="Office 2"
-              layout="fill"
+              // layout="fill"
               objectFit="cover"
+              className="h-full object-cover"
             />
           </div>
         </div>

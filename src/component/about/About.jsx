@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSection2 from '../hero/HeroSection2'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 import CompanyValuesSection from './CompanyValuesSection'
 import ImagesSection from './ImagesSection'
@@ -42,12 +42,12 @@ const About = () => {
                 <div className="relative  lg:h-full rounded-lg md:overflow-visible overflow-hidden shadow-xl">
                   <div className="absolute inset-0 bg-gray-900 "></div>
                   <div className="h-full w-full relative left-10 bottom-10">
-                    <Image 
+                    <img 
                       src="/Genex/12.jpeg" 
                       alt="Luxury HVAC showcase room" 
                       layout="fill"
                       objectFit="cover"
-                      className=""
+                      className="h-full"
                     />
                   </div>
                 </div>

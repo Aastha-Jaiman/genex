@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/image';
+// import Image from 'next/image';
 import React from 'react';
 
 const WeOfferSection = () => {
@@ -37,7 +37,7 @@ const WeOfferSection = () => {
               style={{ boxShadow: '0 6px 16px rgba(0, 0, 0, 0.1)' }}
             >
               <div className="h-64 relative">
-                <Image
+                <img
                   src={item.image}
                   alt={item.alt}
                   fill

@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 import React from 'react';
 
 const brands = [
@@ -29,7 +29,7 @@ const PartnerBrandsSection = () => {
             key={index}
             className="bg-white p-4 rounded-2xl flex items-center justify-center h-44 shadow-md"
           >
-            <Image
+            <img
               src={brand.logo}
               alt={brand.name}
               width={100}
@@ -44,7 +44,7 @@ const PartnerBrandsSection = () => {
           <div
             className="bg-white p-4 rounded-2xl flex items-center justify-center h-44 shadow-md"
           >
-            <Image
+            <img
               src={brands[8].logo}
               alt={brands[8].name}
               width={100}
@@ -55,7 +55,7 @@ const PartnerBrandsSection = () => {
           <div
             className="bg-white p-4 rounded-2xl flex items-center justify-center h-44 shadow-md"
           >
-            <Image
+            <img
               src={brands[9].logo}
               alt={brands[9].name}
               width={100}

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="flex-shrink-0 flex items-center">
               <Link href="/">
                 <div className="h-14 w-32 relative cursor-pointer">
-                  <Image
+                  <img
                     src="/GenexLogo.png"
                     alt="Genex Logo"
                     layout="fill"

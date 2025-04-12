@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 import React from 'react';
 
 const clients = [
@@ -33,7 +33,7 @@ const TrustedBy = () => {
               `,
             }}
           >
-            <Image
+            <img
               src={client.logo}
               alt={client.name}
               width={200}

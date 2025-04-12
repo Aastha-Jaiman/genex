@@ -1,7 +1,7 @@
 
 'use client';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 import React from 'react';
 
 const awards = [
@@ -31,7 +31,7 @@ const ImagesSection = () => {
         {/* Second Row with 1 Centered Image */}
         <div className="flex justify-center">
           <div className="flex flex-col items-center w-[650px] overflow-hidden mb-8">
-            <Image
+            <img
               src={awards[2].image}
               alt={awards[2].title}
               width={600}
@@ -46,7 +46,7 @@ const ImagesSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-4xl mx-auto ">
           {awards.slice(0, 2).map((award, index) => (
             <div key={index} className="flex flex-col items-center">
-              <Image
+              <img
                 src={award.image}
                 alt={award.title}
                 width={700}

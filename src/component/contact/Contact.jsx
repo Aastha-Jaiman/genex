@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import HeroSection3 from "../hero/HeroSection3";
 
 export default function ContactSection() {
@@ -10,7 +10,7 @@ export default function ContactSection() {
       {/* Map Image */}
       <div className="w-full px-4 py-10 relative -top-24 z-10 flex justify-center">
         <div className="w-full max-w-4xl shadow-xl">
-          <Image
+          <img
             src="/Map.png"
             alt="Map Location"
             width={1200}

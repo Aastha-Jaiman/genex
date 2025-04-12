@@ -17,7 +17,7 @@ export default function AwardsSection() {
           '/Genex/Award photos/2.jpeg',
         ].map((src, index) => (
           <div key={index} className="w-full aspect-[4/3] relative">
-            <Image
+            <img
               src={src}
               alt={`Award ${index + 1}`}
               fill

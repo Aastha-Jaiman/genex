@@ -1,7 +1,7 @@
 // components/Footer.jsx
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLinkedinIn, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Logo and Company Info */}
           <div className="max-w-xs">
             <div className="mb-4">
-              <Image
+              <img
                 src="/GenexLogo.png"
                 alt="Genex Air Conditioning Experts"
                 width={180}

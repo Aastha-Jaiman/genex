@@ -1,6 +1,6 @@
 // components/OurOfferings.jsx
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const offeringsData = [
   {
@@ -59,7 +59,7 @@ export default function OurOfferings() {
               <div className={`w-full lg:w-1/2 ${offering.reverse ? 'lg:order-2' : 'lg:order-1'}`}>
                 <div className="p-2 rounded-lg">
                   <div className="relative h-64 sm:h-80">
-                    <Image
+                    <img
                       src={offering.image}
                       alt={offering.alt}
                       fill
