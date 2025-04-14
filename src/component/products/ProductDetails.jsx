@@ -17,7 +17,7 @@ const productData = [
     title: "Ductable Air Conditioner",
     description:
       "Compact and versatile ductable AC delivers consistent airflow, offering an ideal cooling solution for large industrial and commercial spaces with easy installation.",
-    image: "/Genex/WEBSITE AC PHOTOS/Ductable ac.jpg",
+    image: "/Genex/WEBSITE AC PHOTOS/High static ductable ac.png",
   },
   {
     title: "One-Way Cassette AC",
@@ -29,31 +29,31 @@ const productData = [
     title: "Four-Way Cassette AC",
     description:
       "Advanced four-way cassette AC offers 360-degree airflow, energy efficiency, and an elegant design, making it ideal for modern commercial and residential spaces.",
-    image: "/Genex/WEBSITE AC PHOTOS/Four way cassette ac.jpg", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Four way cassette ac.jpg",
   },
   {
     title: "Round Cassette AC",
     description:
       "Stylish round cassette AC combines a unique circular design with optimized airflow, providing high-end cooling solutions for premium spaces with quiet operation.",
-    image: "/Genex/WEBSITE AC PHOTOS/Round Cassette ac.webp", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Round Cassette ac.webp", 
   },
   {
     title: "Low Static Ductable AC",
     description:
       "Low static ductable AC is a compact, energy-efficient solution for consistent, quiet cooling tailored for small to mid-sized areas with versatile installation options.",
-    image: "/Genex/WEBSITE AC PHOTOS/Ductable ac.jpg", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Low static ductable ac.png", 
   },
   {
     title: "Tower Air Conditioner",
     description:
       "Modern tower AC unit blends vertical design and high-capacity cooling, offering powerful performance and an elegant appearance for versatile applications.",
-    image: "/Genex/WEBSITE AC PHOTOS/Tower AC.jpg", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Tower AC.jpg", 
   },
   {
     title: "Split Air Conditioner",
     description:
       "Sophisticated split AC features a sleek wall-mounted unit and durable outdoor compressor, ensuring reliable cooling, quiet operation, and energy-efficient performance.",
-    image: "/Genex/WEBSITE AC PHOTOS/Spilt ac.jpg", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Spilt ac.jpg",
   },
 ];
 

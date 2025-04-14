@@ -12,7 +12,7 @@ export default function HVACSection() {
             and Innovation
           </h2>
           <hr className="w-12 border-b-2 border-blue-800 my-4" />
-          <p className="text-gray-900 text-4xl sm:text-lg font-medium leading-relaxed">
+          <p className="text-gray-900 sm:text-lg font-medium leading-relaxed">
             Expertise-driven HVAC solutions designed for industrial and commercial spaces. With
             over 18 years of experience, Genex delivers seamless installation, trusted brands,
             and reliable maintenance support.
