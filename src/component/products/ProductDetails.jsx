@@ -5,31 +5,31 @@ const productData = [
     title: "VRF Air Conditioning System",
     description:
       "Efficient and scalable, the VRF system offers advanced climate control for large spaces, combining cutting-edge technology with sleek, quiet operation for unmatched comfort.",
-    image: "/Genex/WEBSITE AC PHOTOS/VRF LG.avif", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/VRF LG.jpg", 
   },
   {
     title: "Multi i HVAC System",
     description:
       "Multi-zone cooling solution with a modern aesthetic, ensuring energy-efficient, quiet operation and precise temperature control for diverse commercial applications.",
-    image: "/Genex/WEBSITE AC PHOTOS/LG multi i.avif", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/LG multi i.jpg",
   },
   {
     title: "Ductable Air Conditioner",
     description:
       "Compact and versatile ductable AC delivers consistent airflow, offering an ideal cooling solution for large industrial and commercial spaces with easy installation.",
-    image: "/Genex/WEBSITE AC PHOTOS/Ductable ac.jpg", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Ductable ac.jpg",
   },
   {
     title: "One-Way Cassette AC",
     description:
       "Sleek one-way cassette AC ensures directional airflow with space-saving installation, combining modern design and efficient performance for any environment.",
-    image: "/Genex/WEBSITE AC PHOTOS/One way cassette.avif", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/One way cassette.jpg",
   },
   {
     title: "Four-Way Cassette AC",
     description:
       "Advanced four-way cassette AC offers 360-degree airflow, energy efficiency, and an elegant design, making it ideal for modern commercial and residential spaces.",
-    image: "/Genex/WEBSITE AC PHOTOS/Four way cassette ac.avif", // Replace with your actual image path
+    image: "/Genex/WEBSITE AC PHOTOS/Four way cassette ac.jpg", // Replace with your actual image path
   },
   {
     title: "Round Cassette AC",
