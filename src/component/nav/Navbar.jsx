@@ -29,11 +29,11 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/aboutus' },
-    { name: 'Products', href: '/products' },
-    { name: 'Service', href: '/services' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Contact', href: '/contactus' },
+    { name: 'About Us', href: '/aboutus/' },
+    { name: 'Products', href: '/products/' },
+    { name: 'Service', href: '/services/' },
+    { name: 'Blog', href: '/blog/' },
+    { name: 'Contact', href: '/contactus/' },
   ];
 
   return (
