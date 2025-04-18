@@ -38,45 +38,51 @@ export default function OurOfferings() {
     <section className="py-16 mt-10 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-5xl font-bold text-blue-800 mb-4">Our Offerings</h2>
-        
+
         <div className="mb-10 ">
           <p className="text-gray-700 leading-relaxed mb-6">
-            Genex Cooling Systems is a trusted HVAC dealer specializing in delivering innovative and efficient 
-            climate control solutions. As top-brand partners for LG, Mitsubishi, and over 30 world-class 
-            manufacturers, we bring you the highest quality HVAC products currently available in the 
-            market. Our comprehensive product range includes VRV systems, ductable units, cassette air 
-            conditioners, and more, tailored to meet the unique needs of commercial, industrial, and residential 
-            spaces. All installations are performed by certified professionals using cutting-edge techniques and 
-            solutions that set industry standards. Partner with Genex Cooling Systems to experience professional 
+            Genex Cooling Systems is a trusted HVAC dealer specializing in delivering innovative and efficient
+            climate control solutions. As top-brand partners for LG, Mitsubishi, and over 30 world-class
+            manufacturers, we bring you the highest quality HVAC products currently available in the
+            market. Our comprehensive product range includes VRV systems, ductable units, cassette air
+            conditioners, and more, tailored to meet the unique needs of commercial, industrial, and residential
+            spaces. All installations are performed by certified professionals using cutting-edge techniques and
+            solutions that set industry standards. Partner with Genex Cooling Systems to experience professional
             expertise backed by leading global brands.
           </p>
         </div>
 
         <div className="space-y-16">
           {offeringsData.map((offering, index) => (
-            <div key={index} className="flex flex-col lg:flex-row items-center gap-8">
+            <div
+              key={index}
+              className={`flex flex-col ${offering.reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'
+                } items-center gap-6 sm:gap-10`}
+            >
               {/* Image Section */}
-              <div className={`w-full lg:w-1/2 ${offering.reverse ? 'lg:order-2' : 'lg:order-1'}`}>
-                <div className="p-2 rounded-lg">
-                  <div className="relative h-64 sm:h-80">
-                    <img
-                      src={offering.image}
-                      alt={offering.alt}
-                      fill
-                      className="rounded object-cover"
-                    />
-                  </div>
+              <div className="w-full lg:w-1/2">
+                <div className="rounded-lg overflow-hidden h-64 sm:h-80 md:h-96 w-full">
+                  <img
+                    src={offering.image}
+                    alt={offering.alt}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
-              
+
               {/* Text Section */}
-              <div className={`w-full lg:w-1/2 ${offering.reverse ? 'lg:order-1' : 'lg:order-2'}`}>
-                <h3 className="text-2xl font-bold text-blue-800 mb-4">{offering.title}</h3>
-                <p className="text-gray-700 font-medium">{offering.description}</p>
+              <div className="w-full lg:w-1/2 lg:text-left px-2">
+                <h3 className="text-xl sm:text-2xl font-bold text-blue-800 mb-4">
+                  {offering.title}
+                </h3>
+                <p className="text-gray-700 text-base sm:text-lg font-medium">
+                  {offering.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );
